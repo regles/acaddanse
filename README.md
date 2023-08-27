@@ -1,3 +1,0 @@
-"# acad" 
-"# acadanse" 
-"# acadanse" 

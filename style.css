@@ -9,7 +9,7 @@ body {
     background-color: rgb(187, 147, 95);
     width: 100%;
     text-align: left;
-    height: 28px;  
+    height: auto;  
     padding: 54px;
     border: none;
     margin: 0px;
@@ -50,6 +50,10 @@ body {
 
 #p{
     margin: 20px;
+    width: 70%;
+    position: unset;
+    float: left;
+    padding: 0px;
 }
 
 h1{
@@ -57,6 +61,7 @@ h1{
     margin-top: 150px;
     margin-bottom: 20px;
     padding: 30px;
+    color: rgb(129, 29, 35);
     
 }
 
@@ -160,3 +165,140 @@ h1{
     text-align: center;
 }
 
+#h2{
+    text-align: center;
+}
+
+#pl{
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-bottom: 200px;
+    margin-top: 25px;
+    position: unset;
+
+
+
+}
+
+#p2{
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 80%;
+    position: unset;
+}
+
+#pp{
+    width: 50%;
+}
+
+#pa{
+    width: 50%;
+    border-right: black;
+    border-right: 2px;
+}
+
+#ps{
+    width: 90%;
+    margin-left:50px ;
+    font-size: 30px;
+    text-align: center;
+    position: flex;
+    display: block;
+    
+
+}
+
+#pz{
+    text-align: center;
+
+}
+
+#lc {
+    text-align: center;
+    list-style: inside;
+
+}
+
+#h3{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#pz2{
+    text-align: center;
+    
+}
+
+#zm{
+    font-size: 35px;
+    color: black;
+}
+
+#vod{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p1{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+#p2{
+    width: 45%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p3{
+   width: 50%;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto; 
+}
+
+#p4{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#forum{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+
+#vodz{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+#pc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+#zp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
