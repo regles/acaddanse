@@ -8,28 +8,31 @@ body {
     position: fixed;
     background-color: rgb(187, 147, 95);
     width: 100%;
-    text-align: left;
-    height: auto;  
-    padding: 54px;
+    height: 14%;
     border: none;
     margin: 0px;
     top: 0;
-    left: 0;
+    text-align: center;
 
 }
 
 #buttonM {
-    padding: 50px;
+
+    height: 80%;
+    width: 13%;
     text-decoration : none;
     background-image: url(sans\ le\ fond_AcaDDanse.png);
-    border: none;
-    margin: 0px;
     color: black;
-    width: 50;
+    border: 100%;
+    display: inline-block; 
+    background-size: contain;
+    background-repeat: no-repeat;
+
     color: rgba(240, 255, 255, 0);
     
 
 }
+
 
 #logo{
     width: 30px;
@@ -66,60 +69,72 @@ h1{
 }
 
 #button1 {
-    padding: 47px;
+
+    height: 80%;
+    display: inline-block; 
+    background-size: contain;
+    background-repeat: no-repeat;
+
     text-decoration : none;
     background-image: url(vcgb.png);
     border: none;
     color: black;
-    width: 50;
+    width: 13%;
     color: rgba(240, 255, 255, 0);
-    margin-left: 20px;
-    height: 100%;
+
 
     
 
 }
 
 #button3 {
-    padding: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block; 
     text-decoration : none;
     background-image: url(cabaret.png);
     border: none;
     color: black;
-    width: 50;
+    width: 13%;
     color: rgba(240, 255, 255, 0);
-    margin-left: 20px;
-    height: 100%;
+    height: 80%;
+
 
     
 
 }
 
 #button4 {
-    padding: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90%;
+    display: inline-block; 
     text-decoration : none;
     background-image: url(moderndanse.png);
     border: none;
     color: black;
-    width: 40;
+    width: 13%;
     color: rgba(240, 255, 255, 0);
-    margin-left: 20px;
-    height: 100%;
+
+
 
     
 
 }
 
 #button2 {
-    padding: 37px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block; 
     text-decoration : none;
     background-image: url(cicl.png);
     border: none;
     color: black;
-    width: 50;
+    width: 13%;
+    height: 80%;
     color: rgba(240, 255, 255, 0);
-    margin-left: 20px;
-    height: 100%;
+
+
 
     
 
@@ -128,15 +143,17 @@ h1{
 
 
 #button5 {
-    padding: 47px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block; 
     text-decoration : none;
     background-image: url(vcgb-1.png);
     border: none;
     color: black;
-    width: 50;
+    width: 13%;
     color: rgba(240, 255, 255, 0);
-    margin-left: 20px;
-    height: 100%;
+    height: 80%;
+
 
     
 
@@ -301,6 +318,5 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    wihth: 50%;
     height: auto;
 }
