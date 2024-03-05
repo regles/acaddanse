@@ -44,10 +44,11 @@ body {
     background-color: blanchedalmond;
     width: 70%;
     height: auto;
-    margin-top: 200px;
-    margin-left: 260px;
     border: initial;
+    position: center;
     font-size: 40px;
+    display: block;
+    margin-left: 15%;
    
 }
 
