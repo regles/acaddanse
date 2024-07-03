@@ -2,6 +2,7 @@ body {
     background-color: rgba(158, 95, 53, 0.842);
     background-image: url(planché.png);
     border: 0px;
+
 }
 
 #barreR{
@@ -320,4 +321,31 @@ h1{
     margin-left: auto;
     margin-right: auto;
     height: auto;
+}
+
+#ar{
+    width: 70%;
+    position: unset;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#vod_kpop{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+#h4_kpop{
+    text-align: center;
+}
+
+#Actus{
+    color: rgb(129, 29, 35);
+    text-align: center;
+}
+
+#h2_k{
+    text-align: center;
 }
