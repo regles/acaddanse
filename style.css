@@ -2,7 +2,10 @@ body {
     background-color: rgba(158, 95, 53, 0.842);
     background-image: url(planché.png);
     border: none;
+}
 
+.menu{
+    display: none;
 }
 
 #barreR{
@@ -401,5 +404,438 @@ h1{
     margin-left: auto;
     margin-right: auto;
  
+
+}
+.navbar{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1150px ) {
+    *{
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+
+
+    
+    }
+
+    .navbar{
+        display: block;
+    }
+    .BuIm1 {
+        width: auto;
+        height: 100%;
+    }
+    #barreR{
+        text-align: justify;
+        display: none;
+    }
+    #button1{
+        display: none;
+    }
+    #button2{
+        display: none;
+    }
+    #button3{
+        display: none;
+    }
+    #button4{
+        display: none;
+    }
+    #button5{
+        display: none;
+    }
+    #button6{
+        display: none;
+    }
+    #button7{
+        display: none;
+    }
+    #buttonM{
+        margin-right: 5px;
+    }
+
+   
+    .e a:visited{
+        color: black;
+    }
+    
+    .b a:visited{
+        color: black;
+    }
+    
+    .b{
+        color: black;
+    }
+
+ 
+    
+    
+    .nav-links{
+        position: absolute;
+        backdrop-filter: blur(15px);
+        background-color: rgba(0, 0, 0, 0.178);
+        width: 99%;
+        height: 100%;
+        align-items: center;
+        bottom: 0px;
+        list-style: none;
+        font-size: xx-large;
+        font-weight: 800;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+        text-align: center;
+    }
+    
+    .nav-links .b{
+        color: black;
+    }
+    
+    .click{
+        margin-left: 0;
+        position: fixed;
+    }
+    
+    
+    
+    
+    .menu{
+        top: 13px;
+        right: 20px;
+        margin: 2%;
+        width: 60px;
+        display: flex;
+        position: absolute;
+        position: fixed;
+    }
+
+    .e{
+        position: absolute;
+        top: 2%;
+        left: 35%;
+    }
+
+    .b{
+        position: absolute;
+        top: 20%;
+        left: 39%;
+        
+    }
+
+    .c{
+        position: absolute;
+        top: 33%;
+        left: 39%;
+
+    }
+
+    .d{
+        position: absolute;
+        top: 45%;
+        left: 40%;
+
+    }
+
+    .f{
+        position: absolute;
+        top: 52%;
+        left: 35%;
+
+    }
+
+    .g{
+        position: absolute;
+        top: 73%;
+        left: 40%;
+
+    }
+
+    .h{
+        position: absolute;
+        top: 87%;
+        left: 42%;
+    }
+
+}
+
+@media screen and (max-width: 830px ){
+    *{
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        font-size: 1em;
+
+    
+    }
+    
+
+    .navbar{
+        display: block;
+    }
+    .BuIm1 {
+        width: auto;
+        height: 100%;
+    }
+    #barreR{
+        text-align: justify;
+        display: none;
+    }
+    #button1{
+        display: none;
+    }
+    #button2{
+        display: none;
+    }
+    #button3{
+        display: none;
+    }
+    #button4{
+        display: none;
+    }
+    #button5{
+        display: none;
+    }
+    #button6{
+        display: none;
+    }
+    #button7{
+        display: none;
+    }
+    body{
+        background-color: blanchedalmond;
+        background-image: none;
+    }
+    .txt{
+        background-color: rgba(255, 235, 205, 0);
+        width: 100%;
+        height: 100%;
+        border: none;
+        position: center;
+        font-size: 40px;
+        display: block;
+        margin-left: 0%;
+    }
+    #h1{
+        text-align: center;
+        margin-top: 15%;
+        margin-right: 10%;
+        padding: 20px;
+        font-size: 125%;
+        display: block;
+        color: rgb(129, 29, 35);
+    }
+    .menu{
+        top: 13px;
+        right: 20px;
+        margin: 2%;
+        width: 60px;
+        display: flex;
+        position: absolute;
+        position: fixed;
+        
+    }
+    #ar{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #pa{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: auto;
+    }
+    #Actus{
+        color: rgb(129, 29, 35);
+        text-align: center;
+        font-size: 160%;
+    }
+    #forum{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: auto;
+    }
+    #p{
+        margin: none;
+        width: 90%;
+        position: unset;
+        float: left;
+        padding: 0px;
+        text-align: left; 
+    }
+    #pl{
+        display: none;
+    }
+    #ps{
+        width: 90%;
+        height: 90%;
+        margin-left: auto;
+        position: unset;
+        text-align: left;
+    
+    }
+
+    .e a:visited{
+        color: black;
+    }
+    
+    .b a:visited{
+        color: black;
+    }
+    
+    .b{
+        color: black;
+    }
+
+ 
+    
+    
+    .nav-links{
+        position: absolute;
+        backdrop-filter: blur(15px);
+        background-color: rgba(0, 0, 0, 0.178);
+        width: 99%;
+        height: 100%;
+        align-items: center;
+        bottom: 0px;
+        list-style: none;
+        font-size: xx-large;
+        font-weight: 800;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+        text-align: center;
+    }
+    
+    .nav-links .b{
+        color: black;
+    }
+    
+    .click{
+        margin-left: 0;
+        position: fixed;
+    }
+    
+    
+    
+    
+    .menu{
+        top: 13px;
+        right: 20px;
+        margin: 2%;
+        width: 60px;
+        display: flex;
+        position: absolute;
+        position: fixed;
+    }
+
+    .e{
+        position: absolute;
+        top: 2%;
+        left: 15%;
+    }
+
+    .b{
+        position: absolute;
+        top: 20%;
+        left: 29%;
+        
+    }
+
+    .c{
+        position: absolute;
+        top: 33%;
+        left: 29%;
+
+    }
+
+    .d{
+        position: absolute;
+        top: 45%;
+        left: 30%;
+
+    }
+
+    .f{
+        position: absolute;
+        top: 52%;
+        left: 14%;
+
+    }
+
+    .g{
+        position: absolute;
+        top: 73%;
+        left: 29%;
+
+    }
+
+    .h{
+        position: absolute;
+        top: 87%;
+        left: 32%;
+    }
+    #vodz{
+        display: block;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+    }
+    #p1{
+        width: 95%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     
+    #p2{
+        width: 95%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #p3{
+       width: 95%;
+       height: auto;
+       display: block;
+       margin-left: auto;
+       margin-right: auto; 
+    }
+    
+    #p4{
+        width: 95%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #pc{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        height: auto;
+    }
+    #vod_kpop{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Pdel{
+        width: 65%;
+        height: 65%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
