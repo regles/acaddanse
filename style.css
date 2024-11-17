@@ -18,6 +18,17 @@ body {
     text-align: center;
 
 }
+.pq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+.pqq{
+    background-image: none;
+    background-color: aliceblue;
+}
 
 #buttonM {
     transition-duration: 0.4s;
